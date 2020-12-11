@@ -5,6 +5,7 @@ Add the followning line of code to you ```pro``` file.
 
 ```
 LIBS += -lVLCQtCore -lVLCQtWidgets
+INCLUDEPATH += usr/local/include
 ```
 This line are the symlinks which is inserted automatically by ```vlc-qt``` in your system when you installed it. These symlinks are pointing to the directory where your ```vlc-qt```
 libraries are stored.
